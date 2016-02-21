@@ -4,12 +4,9 @@ Install Vundle package manager:
 
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-Clone: 
-
+Copy vimrc: 
 	
-Create symbolic links: 
-	
-	ln -s .vimrc ~/
-
+	rm ~/.vim/vimrc
+	cp vimrc ~/.vim/vimrc
 
 
